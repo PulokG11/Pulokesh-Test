@@ -233,6 +233,8 @@ By the end of eight rounds you should have felt that:
 ## Links
 
 - **Game:** [https://coffee-bean-optimization.netlify.app](https://coffee-bean-optimization.netlify.app)
+- **API home:** [https://coffee-bean-api-two.vercel.app](https://coffee-bean-api-two.vercel.app)
+- **API docs:** [https://coffee-bean-api-two.vercel.app/docs](https://coffee-bean-api-two.vercel.app/docs)
 - **API health:** [https://coffee-bean-api-two.vercel.app/health](https://coffee-bean-api-two.vercel.app/health)
 - **Repository:** [https://github.com/PulokG11/Pulokesh-Test](https://github.com/PulokG11/Pulokesh-Test)
 - **Instructor guide:** [INSTRUCTOR.md](INSTRUCTOR.md)

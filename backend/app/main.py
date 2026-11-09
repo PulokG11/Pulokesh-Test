@@ -34,3 +34,15 @@ app.include_router(health.router)
 app.include_router(rounds.router)
 app.include_router(simulate.router)
 app.include_router(championships.router)
+
+
+@app.get("/")
+def root() -> dict:
+    return {
+        "service": "Coffee Bean Optimization API",
+        "status": "ok",
+        "docs": "/docs",
+        "health": "/health",
+        "game": "https://coffee-bean-optimization.netlify.app",
+        "rounds": "/rounds",
+    }

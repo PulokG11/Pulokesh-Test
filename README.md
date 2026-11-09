@@ -11,9 +11,12 @@ This is an **independent educational implementation** inspired by publicly docum
 | Service | URL |
 |---------|-----|
 | **Play the game (Netlify)** | [https://coffee-bean-optimization.netlify.app](https://coffee-bean-optimization.netlify.app) |
-| **API (Vercel)** | [https://coffee-bean-api-two.vercel.app](https://coffee-bean-api-two.vercel.app) |
+| **API home (Vercel)** | [https://coffee-bean-api-two.vercel.app](https://coffee-bean-api-two.vercel.app) |
+| **API docs (Swagger)** | [https://coffee-bean-api-two.vercel.app/docs](https://coffee-bean-api-two.vercel.app/docs) |
 | **API health check** | [https://coffee-bean-api-two.vercel.app/health](https://coffee-bean-api-two.vercel.app/health) |
 | **GitHub repository** | [https://github.com/PulokG11/Pulokesh-Test](https://github.com/PulokG11/Pulokesh-Test) |
+
+> The Vercel URL is the **backend API** (JSON / OpenAPI), not the game UI. Use the Netlify link to play.
 
 ## How to play
 
