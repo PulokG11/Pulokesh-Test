@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: coffee_bean
+    ports:
+      - "5432:5432"
+    volumes:
+      - coffee_bean_pg:/var/lib/postgresql/data
+      - ./supabase/migrations/20260328000000_init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+
+volumes:
+  coffee_bean_pg:
